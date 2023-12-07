@@ -1,0 +1,21 @@
+.headerContainer {
+  font-size: 2rem;
+  display: flex;
+  color: white;
+}
+
+.headerLogo {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.currentDay{
+  font-size: 0.8rem;
+  font-weight:normal;
+}

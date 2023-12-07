@@ -1,0 +1,48 @@
+.homeContainer {
+  margin: auto;
+  padding: 2rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(17, 16, 15);
+  position: relative;
+}
+
+.formContainer {
+  width: 100%;
+  display: flex;
+  color: black;
+}
+
+.taskForm {
+  width: 100%;
+  position: absolute;
+  bottom: 2rem;
+  display: flex;
+}
+
+.taskInput {
+  width: 85%;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  color: black;
+}
+
+.taskInput::placeholder {
+  color: gray;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.addTaskbutton {
+  padding-inline: 1rem;
+}
+
+.errorMessage{
+    margin-top: 2rem;
+    color : red;
+    padding:1rem;
+}

@@ -1,0 +1,14 @@
+.allTasksContainer{
+    display:  flex;
+    flex-direction: column;
+    height: 100%;
+    max-height: 90%;
+    width: 95%;
+    margin-top: 2.5rem;
+    overflow: scroll;
+}
+
+
+.allTasksContainer::-webkit-scrollbar {
+    display: none;
+  }
